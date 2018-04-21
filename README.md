@@ -1,2 +1,2 @@
 # nagaminenot Dotfiles
-for Arch Linux, Dvorak, zsh, xmonad
+for Arch Linux, Dvorak, fish, xmonad
