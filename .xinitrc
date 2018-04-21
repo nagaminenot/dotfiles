@@ -59,4 +59,3 @@ setxkbmap dvorak
 
 # start xmonad
 exec xmonad
-
