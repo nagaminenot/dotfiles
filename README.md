@@ -1,5 +1,5 @@
 # nagaminenot Dotfiles
-for Arch Linux, Dvorak, fish, xmonad
+for Arch Linux, Dvorak, fish, xmonad, terminator
 
 ## パッケージ管理
 pacman & yaourt

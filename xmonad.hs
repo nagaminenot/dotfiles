@@ -10,6 +10,7 @@ myStartupHook   = do
 -- 設定
 myConfig = defaultConfig {
     startupHook    = myStartupHook
+    , terminal     = "terminator"
     -- デバッグ用
     -- , focusedBorderColor = "#0000ff"
 }
