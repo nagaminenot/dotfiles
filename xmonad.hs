@@ -5,6 +5,7 @@ myStartupHook   = do
     spawn "fcitx-autostart"
     spawn "nitrogen --restore"
 
-main = do
-    xmonad defaultConfig
-        { startupHook   = myStartupHook }
+main = xmonad defaultConfig
+     { 
+         startupHook    = myStartupHook
+     }
