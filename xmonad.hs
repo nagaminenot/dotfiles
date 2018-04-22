@@ -1,5 +1,6 @@
 import XMonad
 import XMonad.Hooks.DynamicLog
+import XMonad.Hooks.FadeInactive
 
 -- 起動時のコード
 myStartupHook   = do
@@ -11,8 +12,7 @@ myStartupHook   = do
 myConfig = defaultConfig {
     startupHook    = myStartupHook
     , terminal     = "terminator"
-    -- デバッグ用
-    -- , focusedBorderColor = "#0000ff"
+    , logHook      = fadeInactiveLogHook 0xdddddddd
 }
 
 -- 実行

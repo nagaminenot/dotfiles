@@ -40,5 +40,8 @@ export DefaultIMModule=fcitx
 # dvorak
 setxkbmap dvorak
 
+# 透過準備
+xcompmgr &
+
 # start xmonad
 exec xmonad
