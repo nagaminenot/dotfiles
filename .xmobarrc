@@ -1,5 +1,5 @@
 -- -*- mode:haskell -*-
-Config { font = "Ricty"
+Config { font = "xft:TakaoPGothic-9:Bold"
        , bgColor = "#1a1e1b"
        , fgColor = "#676767"
        , position = Top
