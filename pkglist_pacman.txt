@@ -8,6 +8,7 @@ bison
 bzip2
 coreutils
 cryptsetup
+deepin-screenshot
 device-mapper
 dhcpcd
 diffutils
@@ -77,6 +78,7 @@ sysfsutils
 systemd
 systemd-sysvcompat
 tar
+terminator
 texinfo
 usbutils
 util-linux
@@ -84,6 +86,7 @@ vi
 vim
 wget
 which
+xcompmgr
 xf86-video-nouveau
 xfsprogs
 xmobar
