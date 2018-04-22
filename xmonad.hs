@@ -7,6 +7,7 @@ myStartupHook   = do
     spawn "redshift"
     spawn "fcitx-autostart"
     spawn "nitrogen --restore"
+    spawn "xscreensaver -no-splash"
 
 -- 設定
 myConfig = defaultConfig {

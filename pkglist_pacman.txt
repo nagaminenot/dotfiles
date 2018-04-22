@@ -126,5 +126,6 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+xscreensaver-arch-logo
 xterm
 yaourt
