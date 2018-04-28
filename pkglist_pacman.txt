@@ -13,6 +13,8 @@ device-mapper
 dhcpcd
 diffutils
 dmenu
+docker
+docker-compose
 dosfstools
 e2fsprogs
 efibootmgr
@@ -40,6 +42,7 @@ groff
 grub
 gzip
 hub
+imagemagick
 inetutils
 iproute2
 iputils
