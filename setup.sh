@@ -1,6 +1,7 @@
-
 #!/bin/bash
 
+# 壁紙を取得
+wget https://i.redd.it/80lmd34d9anz.jpg -P ./images/
 # 連想配列の宣言
 declare -A FILES;
 # ファイル名:パス名
@@ -21,5 +22,4 @@ do
     echo ${FILES[$FILE]}
     ln -nfsv $HOME/dotfiles/$FILE ${FILES[$FILE]}
 done
-
 exit 0
