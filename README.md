@@ -26,3 +26,15 @@ pacman -Qqen > pkglist_pacman.txt
 # インストール済パッケージ一覧保存（Yaourt）
 yaourt -Qmq > pkglist_yaourt.txt
 ```
+
+## fishの設定
+
+```bash
+curl -L http://get.oh-my.fish | fish
+omf install bobthefish
+```
+
+## mozcの設定
+```
+/usr/lib/mozc/mozc_tool --mode=config_dialog
+```
