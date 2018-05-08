@@ -19,6 +19,7 @@ FILES=(
   ["dot.xinitrc"]="${HOME}/.xinitrc"
   ["dot.Xresources"]="${HOME}/.Xresources"
   ["dot.xmobarrc"]="${HOME}/.xmobarrc"
+  ["dot.xscreensaver"]="${HOME}/.xscreensaver"
   ["config.fish"]="${HOME}/.config/fish/config.fish"
   ["xmonad.hs"]="${HOME}/.xmonad/xmonad.hs"
   ["terminator_config"]="${HOME}/.config/terminator/config"
