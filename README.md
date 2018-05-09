@@ -3,10 +3,14 @@ for Arch Linux, Dvorak, fish, xmonad, terminator, pacman, yaourt
 
 ## セットアップ
 ### Arch Linux構築
+※Desktopの時に参照にしたもの
 https://qiita.com/Gen-Arch/items/da296b7cbe5d87abc5a4
+※X1 Carbonの時に参照したもの
+https://qiita.com/mopp/items/f1912433abbed69f5f99
+
 ### ユーザー追加
-http://d.hatena.ne.jp/uasi/20111121/1321804402
-https://bbs.archlinux.org/viewtopic.php?id=148870
+<http://d.hatena.ne.jp/uasi/20111121/1321804402>
+<https://bbs.archlinux.org/viewtopic.php?id=148870>
 ### 日本語環境追加
 http://note.kurodigi.com/post-0-19/
 ### Yaourtインストール
@@ -38,3 +42,6 @@ omf install bobthefish
 ```
 /usr/lib/mozc/mozc_tool --mode=config_dialog
 ```
+
+## Wifiとか
+<http://cotaro-science.blogspot.jp/2014/08/arch-linux-lan.html>

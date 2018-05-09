@@ -27,3 +27,6 @@
 *color13:       #bb88dd
 *color14:       #4eb4fa
 *color15:       #d0d0d0
+
+! hi dpi
+Xft.dpi: 144

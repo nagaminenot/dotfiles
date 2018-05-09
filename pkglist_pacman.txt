@@ -11,6 +11,7 @@ cryptsetup
 deepin-screenshot
 device-mapper
 dhcpcd
+dialog
 diffutils
 dmenu
 docker
@@ -36,6 +37,7 @@ gawk
 gcc
 gcc-libs
 gettext
+git
 glibc
 grep
 groff
@@ -44,6 +46,7 @@ gzip
 hub
 imagemagick
 inetutils
+intel-ucode
 iproute2
 iputils
 jfsutils
@@ -89,6 +92,7 @@ vi
 vim
 wget
 which
+wpa_supplicant
 xcompmgr
 xf86-video-nouveau
 xfsprogs
