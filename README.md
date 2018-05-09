@@ -50,3 +50,8 @@ omf install bobthefish
 
 ## Wifiとか
 <http://cotaro-science.blogspot.jp/2014/08/arch-linux-lan.html>
+
+## CtrlとCapsLock入れ替え
+```
+ln -nfsv $HOME/dotfiles/dot.Xmodmap $HOME/
+```
