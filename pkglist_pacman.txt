@@ -65,6 +65,7 @@ nano
 nautilus
 netctl
 nitrogen
+openssh
 pacman
 patch
 pciutils
