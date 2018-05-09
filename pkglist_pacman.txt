@@ -62,6 +62,7 @@ man-db
 man-pages
 mdadm
 nano
+nautilus
 netctl
 nitrogen
 pacman

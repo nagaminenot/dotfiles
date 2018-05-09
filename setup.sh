@@ -9,6 +9,7 @@ yaourt -S $(cat pkglist_yaourt.txt)
 wget https://i.redd.it/80lmd34d9anz.jpg -P ./images/
 wget https://i.imgur.com/CBXI1wa.png -P ./images/
 nitrogen $HOME/dotfiles/images/
+echo inode/directory=nautilus.desktop > ~/.local/share/applications/mimeapps.list
 
 # 連想配列の宣言
 declare -A FILES;
