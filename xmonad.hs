@@ -9,6 +9,7 @@ myStartupHook   = do
     spawn "bash $HOME/dotfiles/display_settings/1v1.sh"
     spawn "nitrogen --restore"
     spawn "xscreensaver -no-splash"
+    spawn "acpid start"
 
 -- 設定
 myConfig = defaultConfig {

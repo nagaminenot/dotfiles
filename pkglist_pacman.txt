@@ -1,3 +1,4 @@
+acpid
 alsa-utils
 arandr
 archey3
@@ -47,7 +48,6 @@ gzip
 hub
 imagemagick
 inetutils
-intel-ucode
 iproute2
 iputils
 jfsutils
@@ -67,6 +67,7 @@ nautilus
 netctl
 nitrogen
 openssh
+otf-ipafont
 pacman
 patch
 pciutils
@@ -93,7 +94,6 @@ usbutils
 util-linux
 vi
 vim
-wget
 which
 wpa_supplicant
 xcompmgr
@@ -102,11 +102,8 @@ xfsprogs
 xmobar
 xmonad
 xmonad-contrib
-xorg-bdftopcf
 xorg-iceauth
 xorg-luit
-xorg-mkfontdir
-xorg-mkfontscale
 xorg-server
 xorg-sessreg
 xorg-smproxy
