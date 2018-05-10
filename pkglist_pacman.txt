@@ -1,4 +1,5 @@
 alsa-utils
+arandr
 archey3
 autoconf
 automake
