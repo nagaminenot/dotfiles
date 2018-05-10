@@ -21,6 +21,7 @@ FILES=(
   ["dot.Xresources"]="${HOME}/.Xresources"
   ["dot.xmobarrc"]="${HOME}/.xmobarrc"
   ["dot.xscreensaver"]="${HOME}/.xscreensaver"
+  ["dot.Xmodmap"]="${HOME}/.Xmodmap"
   ["config.fish"]="${HOME}/.config/fish/config.fish"
   ["xmonad.hs"]="${HOME}/.xmonad/xmonad.hs"
   ["terminator_config"]="${HOME}/.config/terminator/config"
