@@ -25,6 +25,15 @@ http://grainrigi.hatenablog.com/entry/2017/12/02/175901
 ```bash
 # 数回実施する必要あり（fcitx, nitrogen, terminator, Rictyに注意）
 bash setup.sh
+# 壁紙設定
+nitrogen $HOME/dotfiles/images/
+# CtrlとCapsLock入れ替え
+ln -nfsv $HOME/dotfiles/dot.Xmodmap $HOME/
+# fishの設定
+curl -L http://get.oh-my.fish | fish
+omf install bobthefish
+# mozcの設定
+/usr/lib/mozc/mozc_tool --mode=config_dialog
 ```
 
 ## パッケージリストバックアップ
@@ -36,22 +45,5 @@ pacman -Qqen > pkglist_pacman.txt
 yaourt -Qmq > pkglist_yaourt.txt
 ```
 
-## fishの設定
-
-```bash
-curl -L http://get.oh-my.fish | fish
-omf install bobthefish
-```
-
-## mozcの設定
-```
-/usr/lib/mozc/mozc_tool --mode=config_dialog
-```
-
 ## Wifiとか
 <http://cotaro-science.blogspot.jp/2014/08/arch-linux-lan.html>
-
-## CtrlとCapsLock入れ替え
-```
-ln -nfsv $HOME/dotfiles/dot.Xmodmap $HOME/
-```

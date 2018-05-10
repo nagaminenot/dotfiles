@@ -5,10 +5,9 @@
 sudo pacman -S $(cat pkglist_pacman.txt)
 yaourt -S $(cat pkglist_yaourt.txt)
 
-# 壁紙を取得・設定
+# 壁紙を取得
 wget https://i.redd.it/80lmd34d9anz.jpg -P ./images/
 wget https://i.imgur.com/CBXI1wa.png -P ./images/
-nitrogen $HOME/dotfiles/images/
 echo inode/directory=nautilus.desktop > ~/.local/share/applications/mimeapps.list
 
 # 連想配列の宣言
