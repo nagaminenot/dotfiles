@@ -6,6 +6,7 @@ import XMonad.Hooks.FadeInactive
 myStartupHook   = do
     spawn "redshift"
     spawn "fcitx-autostart"
+    spawn "bash $HOME/dotfiles/display_settings/1v1.sh"
     spawn "nitrogen --restore"
     spawn "xscreensaver -no-splash"
 
