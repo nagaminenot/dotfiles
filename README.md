@@ -26,9 +26,7 @@ http://grainrigi.hatenablog.com/entry/2017/12/02/175901
 # 数回実施する必要あり（fcitx, nitrogen, terminator, Rictyに注意）
 bash setup.sh
 # 壁紙設定
-nitrogen $HOME/dotfiles/images/
-# CtrlとCapsLock入れ替え
-ln -nfsv $HOME/dotfiles/dot.Xmodmap $HOME/
+nitrogen $HOME/dotfiles/images/S
 # fishの設定
 curl -L http://get.oh-my.fish | fish
 omf install bobthefish
