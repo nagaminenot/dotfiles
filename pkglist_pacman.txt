@@ -85,6 +85,7 @@ sed
 shadow
 sudo
 sysfsutils
+sysstat
 systemd
 systemd-sysvcompat
 tar
