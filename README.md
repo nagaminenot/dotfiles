@@ -57,3 +57,8 @@ yaourt -Qmq > pkglist_yaourt.txt
 ## Chromeのファイル選択などで、ファイルマネージャが見切れる場合
 - `nautilus` を使う
 - DPI変更や、再インストール、再起動を繰り返す
+
+## サスペンド時にすぐ復帰する問題
+- `cat /proc/acpi/wakeup` でLID以外にenabledがあるか確認
+- rootで、`echo HOGEHOGE > /proc/acpi/wakeup`
+- X1CではGLAN, SLPBをdisableにしました
