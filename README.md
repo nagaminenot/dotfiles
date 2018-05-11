@@ -45,3 +45,11 @@ yaourt -Qmq > pkglist_yaourt.txt
 
 ## Wifiとか
 <http://cotaro-science.blogspot.jp/2014/08/arch-linux-lan.html>
+
+## フタを閉じた際のサスペンド設定
+`lid_close` と以下リンクを参考
+
+<http://blog.tekito.org/2011/08/20/acpid-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%82%B5%E3%82%B9%E3%83%9A%E3%83%B3%E3%83%89/>
+
+※Swapファイルは必須なのか…？
+<https://wiki.archlinux.jp/index.php/%E3%82%B9%E3%83%AF%E3%83%83%E3%83%97>
