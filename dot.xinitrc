@@ -43,5 +43,8 @@ setxkbmap dvorak
 # 透過準備
 xcompmgr &
 
+# サスペンド時にロック
+xss-lock -- xscreensaver-command -lock &
+
 # start xmonad
 exec xmonad

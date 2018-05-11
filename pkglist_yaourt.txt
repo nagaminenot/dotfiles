@@ -4,3 +4,4 @@ ghq
 google-chrome
 peco
 visual-studio-code-bin
+xss-lock-git
