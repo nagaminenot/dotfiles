@@ -53,3 +53,7 @@ yaourt -Qmq > pkglist_yaourt.txt
 
 ※Swapファイルは必須なのか…？
 <https://wiki.archlinux.jp/index.php/%E3%82%B9%E3%83%AF%E3%83%83%E3%83%97>
+
+## Chromeのファイル選択などで、ファイルマネージャが見切れる場合
+- `nautilus` を使う
+- DPI変更や、再インストール、再起動を繰り返す
