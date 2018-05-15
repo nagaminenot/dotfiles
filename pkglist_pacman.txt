@@ -1,3 +1,4 @@
+acpi
 acpid
 alsa-utils
 arandr
@@ -74,6 +75,7 @@ pciutils
 pcmciautils
 perl
 pkg-config
+powertop
 procps-ng
 psmisc
 pulseaudio
@@ -91,6 +93,7 @@ systemd-sysvcompat
 tar
 terminator
 texinfo
+tlp
 usbutils
 util-linux
 vi
