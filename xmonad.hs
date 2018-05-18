@@ -4,7 +4,7 @@ import XMonad.Hooks.FadeInactive
 
 -- 起動時のコード
 myStartupHook   = do
-    spawn "redshift"
+    spawn "redshift -b 0.9:0.6"
     spawn "fcitx-autostart"
     spawn "bash $HOME/dotfiles/display_settings/1v1.sh"
     spawn "nitrogen --restore"

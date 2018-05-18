@@ -26,7 +26,7 @@ http://grainrigi.hatenablog.com/entry/2017/12/02/175901
 # 数回実施する必要あり（fcitx, nitrogen, terminator, Rictyに注意）
 bash setup.sh
 # 壁紙設定
-nitrogen $HOME/dotfiles/images/S
+nitrogen $HOME/dotfiles/images/
 # fishの設定
 curl -L http://get.oh-my.fish | fish
 omf install bobthefish
@@ -46,13 +46,14 @@ yaourt -Qmq > pkglist_yaourt.txt
 ## Wifiとか
 <http://cotaro-science.blogspot.jp/2014/08/arch-linux-lan.html>
 
-## フタを閉じた際のサスペンド設定
-`lid_close` と以下リンクを参考
+## ハイバネーション設定
+※Swapファイル必須。
 
-<http://blog.tekito.org/2011/08/20/acpid-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%82%B5%E3%82%B9%E3%83%9A%E3%83%B3%E3%83%89/>
+スワップ領域を作成した状態で以下を参考に設定する
 
-※Swapファイルは必須なのか…？
-<https://wiki.archlinux.jp/index.php/%E3%82%B9%E3%83%AF%E3%83%83%E3%83%97>
+https://wiki.archlinux.jp/index.php/%E3%82%B9%E3%83%AF%E3%83%83%E3%83%97
+
+https://wiki.archlinux.jp/index.php/%E9%9B%BB%E6%BA%90%E7%AE%A1%E7%90%86#.E9.81.85.E5.BB.B6.E3.83.8F.E3.82.A4.E3.83.90.E3.83.8D.E3.83.BC.E3.82.B7.E3.83.A7.E3.83.B3
 
 ## Chromeのファイル選択などで、ファイルマネージャが見切れる場合
 - `nautilus` を使う
