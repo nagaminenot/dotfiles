@@ -4,7 +4,7 @@ Config { font = "xft:TakaoPGothic-9:Bold"
        , fgColor = "#676767"
        , position = Top
        , lowerOnStart = False
-       , commands = [ Run Network "wlan0" [ "-t"       , " # <rx> : # <tx>"
+       , commands = [ Run Network "wlp2s0" [ "-t"      , "<rx>:<tx>"
                                           , "-L"       , "40"
                                           , "-H"       , "200"
                                           , "--normal" , "#d3d7cf"
@@ -24,6 +24,7 @@ Config { font = "xft:TakaoPGothic-9:Bold"
                                           , "--normal" , "#d3d7cf"
                                           , "--high"   , "#c16666"
                                           ] 10
+
                     , Run BatteryP        ["BAT0"]
                                           [ "-t"       , "<acstatus>"
                                           , "-L"       , "20"
@@ -40,5 +41,5 @@ Config { font = "xft:TakaoPGothic-9:Bold"
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = " %StdinReader% }{#%multicpu%  #%memory%  #%wlan0%  #%battery%  <fc=#c7a273>%date%</fc> "
+       , template = " %StdinReader% }{#%multicpu%  #%memory%  #%wlp2s0%  #%battery%  <fc=#c7a273>%date%</fc> "
        }
