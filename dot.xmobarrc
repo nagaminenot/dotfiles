@@ -24,7 +24,7 @@ Config { font = "xft:TakaoPGothic-9:Bold"
                                           , "--normal" , "#d3d7cf"
                                           , "--high"   , "#c16666"
                                           ] 10
-                    , Run BatteryP        ["CMB1"]
+                    , Run BatteryP        ["BAT0"]
                                           [ "-t"       , "<acstatus>"
                                           , "-L"       , "20"
                                           , "-H"       , "80"
