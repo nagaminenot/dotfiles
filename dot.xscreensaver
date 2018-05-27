@@ -1,5 +1,5 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.38 for nagamine on Tue May  8 23:28:33 2018.
+# Written by xscreensaver-demo 5.38 for nagamine on Sun May 27 01:37:03 2018.
 # https://www.jwz.org/xscreensaver/
 
 timeout:	0:30:00
@@ -29,10 +29,10 @@ dpmsQuickOff:	False
 dpmsStandby:	2:00:00
 dpmsSuspend:	2:00:00
 dpmsOff:	4:00:00
-grabDesktopImages:  True
+grabDesktopImages:  False
 grabVideoFrames:    False
-chooseRandomImages: True
-imageDirectory:	/usr/share/wallpapers
+chooseRandomImages: False
+imageDirectory:	/home/nagamine/dotfiles/images
 
 mode:		one
 selected:	169
@@ -151,7 +151,8 @@ programs:								      \
   GL: 				starwars -root				    \n\
   GL: 				stonerview -root			    \n\
 -				vermiculate -root			    \n\
--				whirlwindwarp -root			    \n\
+-				whirlwindwarp -root -points 1000 -tails	      \
+				  50 -fps				    \n\
 -				zoom -root				    \n\
 -				anemone -root				    \n\
 -				apollonian -root			    \n\
@@ -213,7 +214,8 @@ programs:								      \
   GL: 				polyhedra -root				    \n\
 - GL: 				providence -root			    \n\
 				substrate -root				    \n\
-				wormhole -root				    \n\
+				wormhole -root -delay 41053 -zspeed 24	      \
+				  -stars 16 -fps			    \n\
 - GL: 				antmaze -root				    \n\
 - GL: 				boing -root				    \n\
 -				boxfit -root				    \n\
