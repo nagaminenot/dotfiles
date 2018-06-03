@@ -63,3 +63,6 @@ https://wiki.archlinux.jp/index.php/%E9%9B%BB%E6%BA%90%E7%AE%A1%E7%90%86#.E9.81.
 - `cat /proc/acpi/wakeup` でLID以外にenabledがあるか確認
 - rootで、`echo HOGEHOGE > /proc/acpi/wakeup`
 - X1CではGLAN, SLPBをdisableにしました
+
+## ディスプレイのちらつき
+- `xf86-video-intel` を入れた上で、<https://wiki.archlinux.jp/index.php/Intel_Graphics#Skylake_.E3.82.B5.E3.83.9D.E3.83.BC.E3.83.88> を参考に対応
