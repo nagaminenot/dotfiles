@@ -4,42 +4,49 @@ Config { font = "xft:TakaoPGothic-9:Bold"
        , fgColor = "#676767"
        , position = Top
        , lowerOnStart = False
-       , commands = [ Run Network "wlp2s0" [ "-t"      , "<rx>:<tx>"
-                                          , "-L"       , "40"
-                                          , "-H"       , "200"
-                                          , "--normal" , "#d3d7cf"
-                                          , "--high"   , "#88b986"
+       , commands = [ Run Network "wlp2s0" [ "-t"      , "⇩<rx> ⇧<tx>"
+                                          , "-L"       , "200000"
+                                          , "-H"       , "8000000"
+                                          , "--normal" , "white"
+                                          , "--high"   , "red"
                                           ] 10
 
-                    , Run MultiCpu        [ "-t"       , "<total0>.<total1>.<total2>.<total3>"
-                                          , "-L"       , "40"
-                                          , "-H"       , "85"
-                                          , "--normal" , "#d3d7cf"
-                                          , "--high"   , "#c16666"
+                    , Run MultiCpu        [ "-t"       , "<total0>% <total1>% <total2>% <total3>%"
+                                          , "-L"       , "50"
+                                          , "-H"       , "70"
+                                          , "--normal" , "white"
+                                          , "--high"   , "red"
                                           ] 50
 
                     , Run Memory          [ "-t"       , "<usedratio>%"
-                                          , "-L"       , "40"
-                                          , "-H"       , "90"
-                                          , "--normal" , "#d3d7cf"
-                                          , "--high"   , "#c16666"
+                                          , "-L"       , "50"
+                                          , "-H"       , "70"
+                                          , "--normal" , "white"
+                                          , "--high"   , "red"
                                           ] 10
 
                     , Run BatteryP        ["BAT0"]
                                           [ "-t"       , "<acstatus>"
                                           , "-L"       , "20"
-                                          , "-H"       , "80"
-                                          , "--low"    , "#c16666"
-                                          , "--normal" , "#d3d7cf"
+                                          , "-H"       , "60"
+                                          , "--low"    , "red"
+                                          , "--normal" , "white"
                                           , "--"
                                                 , "-o" , "<left>% (<timeleft>)"
                                                 , "-O" , "Charging <left>%"
                                                 , "-i" , "<left>%"
+                                          ] 50
+
+                    , Run CoreTemp        [ "-t"       , "<core0>C"
+                                          ,"-L"        , "60"
+                                          ,"-H"        , "80"
+                                          , "--normal" ,"white"
+                                          ,"--high"    ,"red"
                                           ] 50
                     , Run Date "%a %m/%d %H:%M" "date" 10
                     , Run StdinReader
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = " %StdinReader% }{#%multicpu%  #%memory%  #%wlp2s0%  #%battery%  <fc=#c7a273>%date%</fc> "
+       , template = " %StdinReader% }{WIFI》%wlp2s0%  MEM》%memory%  CPU》%multicpu%  TEMP》%coretemp%  BAT》%battery%  <fc=#c7a273>%date%</fc> "
        }
