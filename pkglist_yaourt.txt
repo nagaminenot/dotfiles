@@ -1,7 +1,11 @@
+anaconda
 asoundconf
 franz-bin
 ghq
 google-chrome
+pacaur
 peco
+swapspace
 visual-studio-code-bin
+xscreensaver-arch-logo
 xss-lock-git

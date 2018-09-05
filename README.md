@@ -40,7 +40,7 @@ omf install bobthefish
 # インストール済パッケージ一覧保存（Pacman）
 pacman -Qqen > pkglist_pacman.txt
 # インストール済パッケージ一覧保存（Yaourt）
-yaourt -Qmq > pkglist_yaourt.txt
+pacaur -Qmq > pkglist_yaourt.txt
 ```
 
 ## Wifiとか
