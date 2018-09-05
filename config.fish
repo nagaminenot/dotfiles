@@ -1,3 +1,5 @@
+set PATH /home/nagamine/anaconda3/bin $PATH
+
 #[ git ]
 alias g='git'
 
