@@ -11,6 +11,7 @@ bison
 bzip2
 coreutils
 cryptsetup
+cups
 deepin-screenshot
 device-mapper
 dhcpcd
@@ -33,6 +34,7 @@ fcitx-qt5
 file
 filesystem
 findutils
+firefox-developer-edition
 fish
 flex
 fontforge
@@ -54,6 +56,7 @@ iproute2
 iputils
 jfsutils
 less
+lib32-gnutls
 libqmi
 libtool
 liburcu
@@ -67,22 +70,25 @@ make
 man-db
 man-pages
 mdadm
+msr-tools
 nano
 nautilus
 net-tools
 netctl
 nitrogen
+nodejs
 noto-fonts
 noto-fonts-emoji
+npm
 ntp
 openssh
 otf-ipafont
 pacman
 patch
+pavucontrol
 pciutils
-pcmciautils
 perl
-pkg-config
+pkgconf
 powertop
 procps-ng
 psmisc
@@ -90,7 +96,9 @@ pulseaudio
 python-pip
 redshift
 reiserfsprogs
+ruby
 s-nail
+samba
 sed
 shadow
 sudo
@@ -102,7 +110,6 @@ tar
 terminator
 texinfo
 tlp
-ttf-symbola
 unzip
 usbutils
 util-linux
@@ -149,6 +156,4 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
-xscreensaver-arch-logo
 xterm
-yaourt
